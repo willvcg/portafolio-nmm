@@ -97,11 +97,13 @@
     border: 1px solid rgba(214, 198, 198, 0.8);
     margin-right: 20px;
     margin-bottom: 20px;
+    transition: all 300ms;
 }
 
-
-.project a:hover{
-    scale: 2;
+.project:hover{
+    box-shadow: 0px 0px 12px #ccc;
+    cursor: pointer;
+    transform: scale(1.03);
 }
 
 .project img{
